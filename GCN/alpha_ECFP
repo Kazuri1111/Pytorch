@@ -7,10 +7,3 @@ sigmoid: 8.787441079880448
 全部
 mlp(hidden=4,iter=1000,relu,adam) RMSE=3.9639885947707616, MAE:2.8930943694393636 3m18.5s
 GCN N=2, hidden=32 MAE=train_loss:2.110962483391299, valid_loss:3.087297418881162 3m18.7s
-
-
-
-
-
-
-
