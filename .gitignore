@@ -6,3 +6,4 @@ neural-fingerprint
 GCN/MoleculeNet
 /__pycache__
 /GCN/__pycache__
+/GCN/QM9_ECFP
