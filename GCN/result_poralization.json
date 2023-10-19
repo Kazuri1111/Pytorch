@@ -1,0 +1,774 @@
+GCN N=2, dim=32, batch_size=32, loss=rmse, lr=0.01, decay=5e-4, seed=0, split=(0.6,
+0.2,
+0.2), time=11m43.0s
+    {'Epoch': 1,
+  'train_loss': 11.037600773956685,
+  'valid_loss': 2.657016024904321
+},
+{'Epoch': 2, 'train_loss': 9.16355091338247, 'valid_loss': 5.170288771463781
+},
+{'Epoch': 3,
+  'train_loss': 7.627838518139591,
+  'valid_loss': 3.0186037275493875
+},
+{'Epoch': 4,
+  'train_loss': 6.249329342235854,
+  'valid_loss': 3.6385906101147527
+},
+{'Epoch': 5, 'train_loss': 5.661841327131717, 'valid_loss': 3.57902888840743
+},
+{'Epoch': 6,
+  'train_loss': 5.346810289486307,
+  'valid_loss': 3.4682826730616227
+},
+{'Epoch': 7,
+  'train_loss': 5.156301436719607,
+  'valid_loss': 3.6021196097499875
+},
+{'Epoch': 8,
+  'train_loss': 4.944081609872851,
+  'valid_loss': 4.021944329907667
+},
+{'Epoch': 9,
+  'train_loss': 4.798447733864904,
+  'valid_loss': 3.612897838240439
+},
+{'Epoch': 10,
+  'train_loss': 4.7116281713230785,
+  'valid_loss': 3.8956531125933735
+},
+{'Epoch': 11,
+  'train_loss': 4.662381138370206,
+  'valid_loss': 3.9230232585613187
+},
+{'Epoch': 12,
+  'train_loss': 4.639834064094634,
+  'valid_loss': 4.490722590378852
+},
+{'Epoch': 13,
+  'train_loss': 4.635768491753545,
+  'valid_loss': 3.873811492418602
+},
+{'Epoch': 14,
+  'train_loss': 4.653484276473862,
+  'valid_loss': 3.8879188500290103
+},
+{'Epoch': 15,
+  'train_loss': 4.627441134895847,
+  'valid_loss': 3.720022262162859
+},
+{'Epoch': 16,
+  'train_loss': 4.589495906522824,
+  'valid_loss': 3.7878498340294238
+},
+{'Epoch': 17,
+  'train_loss': 4.613346660826978,
+  'valid_loss': 4.258611575898448
+},
+{'Epoch': 18,
+  'train_loss': 4.610309913669452,
+  'valid_loss': 3.9605055379984138
+},
+{'Epoch': 19,
+  'train_loss': 4.638229096139847,
+  'valid_loss': 3.629162880494134
+},
+{'Epoch': 20,
+  'train_loss': 4.613467444126064,
+  'valid_loss': 3.746130471124626
+},
+{'Epoch': 21,
+  'train_loss': 4.627208233754034,
+  'valid_loss': 3.8196070593551785
+},
+{'Epoch': 22,
+  'train_loss': 4.612356503804524,
+  'valid_loss': 3.791410593065481
+},
+{'Epoch': 23,
+  'train_loss': 4.589894663733783,
+  'valid_loss': 3.827919778147653
+},
+{'Epoch': 24,
+  'train_loss': 4.5923813851557815,
+  'valid_loss': 4.051128097151778
+},
+{'Epoch': 25,
+  'train_loss': 4.586356079277219,
+  'valid_loss': 3.7153905034065247
+},
+{'Epoch': 26,
+  'train_loss': 4.60475799710943,
+  'valid_loss': 3.7329742219162454
+},
+{'Epoch': 27,
+  'train_loss': 4.612160410158209,
+  'valid_loss': 3.9912903370076114
+},
+{'Epoch': 28,
+  'train_loss': 4.612034814136244,
+  'valid_loss': 3.899847942197235
+},
+{'Epoch': 29,
+  'train_loss': 4.59698533613505,
+  'valid_loss': 3.659368573016234
+},
+{'Epoch': 30,
+  'train_loss': 4.585317419424422,
+  'valid_loss': 3.931940822408951
+},
+{'Epoch': 31,
+  'train_loss': 4.5983746334509625,
+  'valid_loss': 3.7102156201318306
+},
+{'Epoch': 32,
+  'train_loss': 4.58690890958859,
+  'valid_loss': 4.011324666823035
+},
+{'Epoch': 33,
+  'train_loss': 4.5586032793108,
+  'valid_loss': 3.7881883901605398
+},
+{'Epoch': 34,
+  'train_loss': 4.547902944035519,
+  'valid_loss': 4.195571203977963
+},
+{'Epoch': 35,
+  'train_loss': 4.527880408847439,
+  'valid_loss': 4.121825956773641
+},
+{'Epoch': 36,
+  'train_loss': 4.526600556759302,
+  'valid_loss': 4.394205888209541
+},
+{'Epoch': 37,
+  'train_loss': 4.556497167161353,
+  'valid_loss': 3.7433063377669504
+},
+{'Epoch': 38,
+  'train_loss': 4.531290727217409,
+  'valid_loss': 3.593130116794978
+},
+{'Epoch': 39,
+  'train_loss': 4.552012051035936,
+  'valid_loss': 3.6613047924484774
+},
+{'Epoch': 40,
+  'train_loss': 4.558696263285313,
+  'valid_loss': 3.513971900735916
+},
+{'Epoch': 41,
+  'train_loss': 4.534033866169595,
+  'valid_loss': 3.686824654308683
+},
+{'Epoch': 42,
+  'train_loss': 4.5625702967562125,
+  'valid_loss': 3.8482057221944292
+},
+{'Epoch': 43,
+  'train_loss': 4.563597231058931,
+  'valid_loss': 3.5794958335263223
+},
+{'Epoch': 44,
+  'train_loss': 4.558436550643256,
+  'valid_loss': 3.6862517608407073
+},
+{'Epoch': 45,
+  'train_loss': 4.559225302356574,
+  'valid_loss': 3.8766599265462323
+},
+{'Epoch': 46,
+  'train_loss': 4.567923380382292,
+  'valid_loss': 3.691445781141155
+},
+{'Epoch': 47,
+  'train_loss': 4.560917353766083,
+  'valid_loss': 3.803484114283163
+},
+{'Epoch': 48,
+  'train_loss': 4.560435762129475,
+  'valid_loss': 3.6885218372554824
+},
+{'Epoch': 49,
+  'train_loss': 4.532610503220422,
+  'valid_loss': 3.5105978163063964
+},
+{'Epoch': 50,
+  'train_loss': 4.531753213889441,
+  'valid_loss': 3.609300885340404
+}
+
+GCN N=3, dim=32, batch_size=32, loss=rmse, lr=0.01, decay=5e-4, seed=0, split=(0.6,
+0.2,
+0.2), time=13m9.1s
+{
+  "Epoch": 1,
+  "train_loss": 10.486287005081737,
+  "valid_loss": 2.377863296086747
+},
+{
+  "Epoch": 2,
+  "train_loss": 8.752171961000126,
+  "valid_loss": 6.3962595142187295
+},
+{
+  "Epoch": 3,
+  "train_loss": 7.386466958120574,
+  "valid_loss": 2.7675884896502225
+},
+{
+  "Epoch": 4,
+  "train_loss": 6.3683611223536385,
+  "valid_loss": 3.919607374370827
+},
+{
+  "Epoch": 5,
+  "train_loss": 5.841498986238761,
+  "valid_loss": 3.742520350698737
+},
+{
+  "Epoch": 6,
+  "train_loss": 5.428586968631403,
+  "valid_loss": 3.35071064426147
+},
+{
+  "Epoch": 7,
+  "train_loss": 5.204936156986006,
+  "valid_loss": 3.498637211643396
+},
+{
+  "Epoch": 8,
+  "train_loss": 4.9726339644936886,
+  "valid_loss": 3.6147313714027405
+},
+{
+  "Epoch": 9,
+  "train_loss": 4.820821545076933,
+  "valid_loss": 3.667405242441919
+},
+{
+  "Epoch": 10,
+  "train_loss": 4.7346176203422266,
+  "valid_loss": 3.864069443751664
+},
+{
+  "Epoch": 11,
+  "train_loss": 4.7141128516138915,
+  "valid_loss": 3.800414918104419
+},
+{
+  "Epoch": 12,
+  "train_loss": 4.707823110336002,
+  "valid_loss": 3.7145430377176747
+},
+{
+  "Epoch": 13,
+  "train_loss": 4.694656948491433,
+  "valid_loss": 3.824851015377744
+},
+{
+  "Epoch": 14,
+  "train_loss": 4.669976471980219,
+  "valid_loss": 4.344091431435863
+},
+{
+  "Epoch": 15,
+  "train_loss": 4.646460587548938,
+  "valid_loss": 3.7948255011388317
+},
+{
+  "Epoch": 16,
+  "train_loss": 4.618496869576104,
+  "valid_loss": 3.717177969902244
+},
+{
+  "Epoch": 17,
+  "train_loss": 4.619879040955137,
+  "valid_loss": 3.6259200202806654
+},
+{
+  "Epoch": 18,
+  "train_loss": 4.611837329520573,
+  "valid_loss": 3.657941865891874
+},
+{
+  "Epoch": 19,
+  "train_loss": 4.6100146759790235,
+  "valid_loss": 3.65813562456145
+},
+{
+  "Epoch": 20,
+  "train_loss": 4.602918800340014,
+  "valid_loss": 3.639076321515594
+},
+{
+  "Epoch": 21,
+  "train_loss": 4.571488519461056,
+  "valid_loss": 3.773974265329412
+},
+{
+  "Epoch": 22,
+  "train_loss": 4.530276667809428,
+  "valid_loss": 3.6867123891788474
+},
+{
+  "Epoch": 23,
+  "train_loss": 4.518179701223739,
+  "valid_loss": 3.8561982933641357
+},
+{
+  "Epoch": 24,
+  "train_loss": 4.514321113273975,
+  "valid_loss": 3.8251568530765896
+},
+{
+  "Epoch": 25,
+  "train_loss": 4.4670215497292824,
+  "valid_loss": 3.566602829324587
+},
+{
+  "Epoch": 26,
+  "train_loss": 4.493823019197149,
+  "valid_loss": 3.6483626493906334
+},
+{
+  "Epoch": 27,
+  "train_loss": 4.466448444900419,
+  "valid_loss": 3.658861807622653
+},
+{
+  "Epoch": 28,
+  "train_loss": 4.491994631513893,
+  "valid_loss": 3.5342938124696315
+},
+{
+  "Epoch": 29,
+  "train_loss": 4.46383823484741,
+  "valid_loss": 4.313368536149377
+},
+{
+  "Epoch": 30,
+  "train_loss": 4.442409535491962,
+  "valid_loss": 3.555180404034687
+},
+{
+  "Epoch": 31,
+  "train_loss": 4.453256913579958,
+  "valid_loss": 3.7221219073297926
+},
+{
+  "Epoch": 32,
+  "train_loss": 4.449839805138238,
+  "valid_loss": 4.244824649506501
+},
+{
+  "Epoch": 33,
+  "train_loss": 4.435385681597703,
+  "valid_loss": 3.477925495879866
+},
+{
+  "Epoch": 34,
+  "train_loss": 4.444510936251285,
+  "valid_loss": 3.984787436744112
+},
+{
+  "Epoch": 35,
+  "train_loss": 4.443112951813428,
+  "valid_loss": 3.4716667537292816
+},
+{
+  "Epoch": 36,
+  "train_loss": 4.430403342748329,
+  "valid_loss": 3.470927220539242
+},
+{
+  "Epoch": 37,
+  "train_loss": 4.455715896253578,
+  "valid_loss": 3.464074228387007
+},
+{
+  "Epoch": 38,
+  "train_loss": 4.456666535833743,
+  "valid_loss": 3.510264466181944
+},
+{
+  "Epoch": 39,
+  "train_loss": 4.476586138123697,
+  "valid_loss": 3.7767330387693745
+},
+{
+  "Epoch": 40,
+  "train_loss": 4.450915598441841,
+  "valid_loss": 3.4874092578013545
+},
+{
+  "Epoch": 41,
+  "train_loss": 4.4445592777556095,
+  "valid_loss": 3.6341794531036413
+},
+{
+  "Epoch": 42,
+  "train_loss": 4.437665427129446,
+  "valid_loss": 3.5890409499042484
+},
+{
+  "Epoch": 43,
+  "train_loss": 4.471699361501909,
+  "valid_loss": 3.543179973996356
+},
+{
+  "Epoch": 44,
+  "train_loss": 4.465144074366359,
+  "valid_loss": 3.6247415701451104
+},
+{
+  "Epoch": 45,
+  "train_loss": 4.44395492615113,
+  "valid_loss": 3.675499141653476
+},
+{
+  "Epoch": 46,
+  "train_loss": 4.46058499949097,
+  "valid_loss": 3.532590998122628
+},
+{
+  "Epoch": 47,
+  "train_loss": 4.455365800332906,
+  "valid_loss": 3.5678664617841576
+},
+{
+  "Epoch": 48,
+  "train_loss": 4.467133925227295,
+  "valid_loss": 3.9156390074412806
+},
+{
+  "Epoch": 49,
+  "train_loss": 4.457568097644058,
+  "valid_loss": 3.833324877149027
+},
+{
+  "Epoch": 50,
+  "train_loss": 4.4235410863243665,
+  "valid_loss": 3.4789334883899734
+}
+
+GCN N=4, dim=32, batch_size=32, loss=rmse, lr=0.01, decay=5e-4, seed=0, split=(0.6,
+0.2,
+0.2), time=14m54.7s
+Epoch 1 | train_loss: 9.852429344679344, valid_loss: 8.017890864304633
+Epoch 2 | train_loss: 7.947667959752662, valid_loss: 8.531539198821797
+Epoch 3 | train_loss: 7.072648743934134, valid_loss: 4.64193146910819
+Epoch 4 | train_loss: 6.291826896484829, valid_loss: 4.709542015653951
+Epoch 5 | train_loss: 5.7819328274101185,
+1 valid_loss: 3.00149293866892
+Epoch 6 | train_loss: 5.4361271536632, valid_loss: 3.2035511796223797
+Epoch 7 | train_loss: 5.2148602005904925, valid_loss: 4.193750928550012
+Epoch 8 | train_loss: 5.023108670015887, valid_loss: 3.5973289811523737
+Epoch 9 | train_loss: 4.876269870593282, valid_loss: 3.4427616607880536
+Epoch 10 | train_loss: 4.760227940776238, valid_loss: 3.5355851412693853
+Epoch 11 | train_loss: 4.718762050048063, valid_loss: 3.9053494073359483
+Epoch 12 | train_loss: 4.678788388562378, valid_loss: 3.758817468412348
+Epoch 13 | train_loss: 4.660811267932839, valid_loss: 3.8790283057392374
+Epoch 14 | train_loss: 4.604409042566699, valid_loss: 3.8573627824596786
+Epoch 15 | train_loss: 4.5609780372209245, valid_loss: 3.5762588948667196
+Epoch 16 | train_loss: 4.549000342468372, valid_loss: 3.7812870818128794
+Epoch 17 | train_loss: 4.559812011131934, valid_loss: 4.004535925708948
+Epoch 18 | train_loss: 4.511464567231083, valid_loss: 3.8411327549472705
+Epoch 19 | train_loss: 4.539898326655375, valid_loss: 3.5384635495381715
+Epoch 20 | train_loss: 4.512311744940115, valid_loss: 3.552471326732402
+Epoch 21 | train_loss: 4.533436035954476, valid_loss: 4.165164208353877
+Epoch 22 | train_loss: 4.521791555479278, valid_loss: 3.5638140670244733
+Epoch 23 | train_loss: 4.535390311805038, valid_loss: 3.980521961062928
+Epoch 24 | train_loss: 4.521925346192638, valid_loss: 3.6691683832474036
+Epoch 25 | train_loss: 4.511875899904806, valid_loss: 3.6109567286041373
+Epoch 26 | train_loss: 4.524852073085726, valid_loss: 3.676267817434297
+Epoch 27 | train_loss: 4.517011724454947, valid_loss: 3.507939302688123
+Epoch 28 | train_loss: 4.53741740131145, valid_loss: 3.549015062216733
+Epoch 29 | train_loss: 4.5133835119062455, valid_loss: 3.5233704041152247
+Epoch 30 | train_loss: 4.522584896118736, valid_loss: 3.5319198874214752
+Epoch 31 | train_loss: 4.501883137294113, valid_loss: 3.647600132562129
+Epoch 32 | train_loss: 4.5071143453064835, valid_loss: 4.891389090157954
+Epoch 33 | train_loss: 4.496471381906386, valid_loss: 3.47886723279953
+Epoch 34 | train_loss: 4.4984525200207255, valid_loss: 4.177526441937846
+Epoch 35 | train_loss: 4.498893682997501, valid_loss: 3.8456931067562334
+Epoch 36 | train_loss: 4.48308135512017, valid_loss: 4.2668012485527465
+Epoch 37 | train_loss: 4.51245342324979, valid_loss: 3.475887938787418
+Epoch 38 | train_loss: 4.504204708284348, valid_loss: 3.6689897594941567
+Epoch 39 | train_loss: 4.504125652705739, valid_loss: 3.6948777431380777
+Epoch 40 | train_loss: 4.50795859501628, valid_loss: 3.5524817766362125
+Epoch 41 | train_loss: 4.490471217383576, valid_loss: 3.714230579094082
+Epoch 42 | train_loss: 4.505735579213186, valid_loss: 3.5017115810389625
+Epoch 43 | train_loss: 4.494704159761505, valid_loss: 3.469622460291846
+Epoch 44 | train_loss: 4.484705997368332, valid_loss: 3.5137800470832508
+Epoch 45 | train_loss: 4.47656494549065, valid_loss: 3.4369509993963545
+Epoch 46 | train_loss: 4.488814830488564, valid_loss: 3.527702401786095
+Epoch 47 | train_loss: 4.485726610566895, valid_loss: 3.5271430986143266
+Epoch 48 | train_loss: 4.499094947528917, valid_loss: 3.7840835731886417
+Epoch 49 | train_loss: 4.491397520683603, valid_loss: 3.4398173054447967
+Epoch 50 | train_loss: 4.473181375178654, valid_loss: 3.471494182252068
+
+GCN N=3, dim=64, batch_size=32, loss=rmse, lr=0.01, decay=5e-4, seed=0, split=(0.6,
+0.2,
+0.2), time=14m54.7s
+Epoch 1 | train_loss: 8.496724596427725, valid_loss: 5.362083231032915
+Epoch 2 | train_loss: 7.1500019799817744, valid_loss: 3.9347213014122326
+Epoch 3 | train_loss: 6.316199755901812, valid_loss: 3.408868147574893
+Epoch 4 | train_loss: 5.70406989256541, valid_loss: 2.5456591966974123
+Epoch 5 | train_loss: 5.342356944239616, valid_loss: 2.736702435756954
+Epoch 6 | train_loss: 5.10011295244377, valid_loss: 4.349949996453917
+Epoch 7 | train_loss: 4.887532753000049, valid_loss: 3.1921544863425724
+Epoch 8 | train_loss: 4.73847290113289, valid_loss: 3.0500028436516198
+Epoch 9 | train_loss: 4.636253216447341, valid_loss: 3.150117954006988
+Epoch 10 | train_loss: 4.5602801740412415, valid_loss: 3.040266540347801
+Epoch 11 | train_loss: 4.527729943406805, valid_loss: 3.357600975736138
+Epoch 12 | train_loss: 4.458710748098104, valid_loss: 3.2109860575286566
+Epoch 13 | train_loss: 4.426563872101838, valid_loss: 3.3960767519503174
+Epoch 14 | train_loss: 4.401300845830151, valid_loss: 4.1168795127448945
+Epoch 15 | train_loss: 4.39634467074807, valid_loss: 3.2462835491140782
+Epoch 16 | train_loss: 4.357556023729848, valid_loss: 3.2742472082595078
+Epoch 17 | train_loss: 4.305957723752016, valid_loss: 3.546287120700174
+Epoch 18 | train_loss: 4.296233866403233, valid_loss: 3.5475572443824523
+Epoch 19 | train_loss: 4.284257017409986, valid_loss: 4.186498438525025
+Epoch 20 | train_loss: 4.303694532475242, valid_loss: 4.676238879014927
+Epoch 21 | train_loss: 4.296348845560374, valid_loss: 3.1119936687147707
+Epoch 22 | train_loss: 4.26360724860318, valid_loss: 3.70824271221907
+Epoch 23 | train_loss: 4.284783986349269, valid_loss: 3.878605357883612
+Epoch 24 | train_loss: 4.217991769653855, valid_loss: 3.166248302442229
+Epoch 25 | train_loss: 4.216544721800813, valid_loss: 3.083001172484279
+Epoch 26 | train_loss: 4.2137922137951405, valid_loss: 4.6324697901975265
+Epoch 27 | train_loss: 4.242876088706672, valid_loss: 3.6829044677517526
+Epoch 28 | train_loss: 4.231806960257458, valid_loss: 3.296300862704046
+Epoch 29 | train_loss: 4.244837870127609, valid_loss: 3.1201963391164114
+Epoch 30 | train_loss: 4.221343246872287, valid_loss: 3.0489272666152356
+Epoch 31 | train_loss: 4.2267717851694755, valid_loss: 3.0989892363256812
+Epoch 32 | train_loss: 4.227315036669531, valid_loss: 3.2456337343218276
+Epoch 33 | train_loss: 4.217550702180528, valid_loss: 3.1233042947820464
+Epoch 34 | train_loss: 4.1995381903823255, valid_loss: 3.71173800349527
+Epoch 35 | train_loss: 4.1797532583507175, valid_loss: 3.86566292102879
+Epoch 36 | train_loss: 4.160556041426841, valid_loss: 3.6818508590346153
+Epoch 37 | train_loss: 4.154844299893896, valid_loss: 3.2361310200178246
+Epoch 38 | train_loss: 4.140654849053984, valid_loss: 3.0009822249412537
+Epoch 39 | train_loss: 4.152837782636734, valid_loss: 3.383698647937448
+Epoch 40 | train_loss: 4.142229515552132, valid_loss: 2.976833735235163
+Epoch 41 | train_loss: 4.127013500084601, valid_loss: 3.1207764594653997
+Epoch 42 | train_loss: 4.131630813288513, valid_loss: 2.989356735224829
+Epoch 43 | train_loss: 4.127268332238108, valid_loss: 2.915832466193108
+Epoch 44 | train_loss: 4.127464603313898, valid_loss: 4.489855612985663
+Epoch 45 | train_loss: 4.1279672680099315, valid_loss: 3.095161247807202
+Epoch 46 | train_loss: 4.119151293065554, valid_loss: 3.7311826370164645
+Epoch 47 | train_loss: 4.148751680211702, valid_loss: 3.3709850515304978
+Epoch 48 | train_loss: 4.1412877144615345, valid_loss: 2.9732069055433668
+Epoch 49 | train_loss: 4.137531793593583, valid_loss: 3.32716660656964
+Epoch 50 | train_loss: 4.135758824312503, valid_loss: 3.0248541950013643
+
+GCN N=3, dim=128, batch_size=32, loss=rmse, lr=0.01, decay=5e-4, seed=0, split=(0.6,
+0.2,
+0.2), time=20m18.6s
+Epoch 1 | train_loss: 6.922763939397356, valid_loss: 4.99520086105412
+Epoch 2 | train_loss: 5.962176345768457, valid_loss: 4.580437702188282
+Epoch 3 | train_loss: 5.489304825554267, valid_loss: 4.792643075758787
+Epoch 4 | train_loss: 5.181856524001901, valid_loss: 3.3486875283980426
+Epoch 5 | train_loss: 4.940476805578914, valid_loss: 2.6551055227631752
+Epoch 6 | train_loss: 4.719332218753096, valid_loss: 2.707699807611246
+Epoch 7 | train_loss: 4.620339335225516, valid_loss: 2.810753106196527
+Epoch 8 | train_loss: 4.515471923224986, valid_loss: 2.975595830559439
+Epoch 9 | train_loss: 4.407869977881099, valid_loss: 3.3893695894838256
+Epoch 10 | train_loss: 4.350868433398159, valid_loss: 3.4996549870390763
+Epoch 11 | train_loss: 4.285153165520355, valid_loss: 3.1635370371102702
+Epoch 12 | train_loss: 4.255413575685403, valid_loss: 2.7941989274945995
+Epoch 13 | train_loss: 4.189503655165507, valid_loss: 3.0118173247153135
+Epoch 14 | train_loss: 4.164221354976552, valid_loss: 4.7377733580932055
+Epoch 15 | train_loss: 4.185271588494939, valid_loss: 2.8636663346243956
+Epoch 16 | train_loss: 4.140291769716345, valid_loss: 3.1300529595692175
+Epoch 17 | train_loss: 4.144168586097506, valid_loss: 2.8011171004591477
+Epoch 18 | train_loss: 4.090754811610259, valid_loss: 3.3223971679333077
+Epoch 19 | train_loss: 4.0102888959738525, valid_loss: 2.978525139008874
+Epoch 20 | train_loss: 3.996009784009074, valid_loss: 2.724312703009048
+Epoch 21 | train_loss: 3.942891440550875, valid_loss: 2.982439138778556
+Epoch 22 | train_loss: 3.9434875595734775, valid_loss: 2.7781552697160716
+Epoch 23 | train_loss: 3.940254314798792, valid_loss: 2.954455409189891
+Epoch 24 | train_loss: 3.9512402290917064, valid_loss: 3.353769802814008
+Epoch 25 | train_loss: 3.895848490595332, valid_loss: 2.7644437233801282
+Epoch 26 | train_loss: 3.936984150897417, valid_loss: 3.0373871294385357
+Epoch 27 | train_loss: 3.8876118725067053, valid_loss: 2.8136006719034286
+Epoch 28 | train_loss: 3.8646831781570756, valid_loss: 2.6788810367689155
+Epoch 29 | train_loss: 3.879597990514791, valid_loss: 3.681182743867627
+Epoch 30 | train_loss: 3.840610872416741, valid_loss: 3.5132380557818053
+Epoch 31 | train_loss: 3.8751376449527446, valid_loss: 2.8307105132303496
+Epoch 32 | train_loss: 3.8785394568120743, valid_loss: 2.6789890712805655
+Epoch 33 | train_loss: 3.872624873823525, valid_loss: 2.7553899298378774
+Epoch 34 | train_loss: 3.849629678761172, valid_loss: 2.8626523296232618
+Epoch 35 | train_loss: 3.8571374637379137, valid_loss: 3.6015652383160766
+Epoch 36 | train_loss: 3.827078956749348, valid_loss: 2.726050401520904
+Epoch 37 | train_loss: 3.816043133986317, valid_loss: 2.710477476015068
+Epoch 38 | train_loss: 3.8455819651278036, valid_loss: 3.706101648090521
+Epoch 39 | train_loss: 3.835408702844901, valid_loss: 2.9898046153098856
+Epoch 40 | train_loss: 3.825259281156893, valid_loss: 3.2042489327253514
+Epoch 41 | train_loss: 3.8456380657772757, valid_loss: 2.737407865180363
+Epoch 42 | train_loss: 3.806086787433282, valid_loss: 3.098212555014417
+Epoch 43 | train_loss: 3.8036595385737213, valid_loss: 2.8325813708503556
+Epoch 44 | train_loss: 3.817176480650805, valid_loss: 3.019979583459262
+Epoch 45 | train_loss: 3.779942550645578, valid_loss: 4.194664030611369
+Epoch 46 | train_loss: 3.7609094590215832, valid_loss: 2.6984264360954824
+Epoch 47 | train_loss: 3.7707782446512286, valid_loss: 2.8232063624853025
+Epoch 48 | train_loss: 3.7708483507891644, valid_loss: 2.6712229399051526
+Epoch 49 | train_loss: 3.76643178850631, valid_loss: 4.637129581353483
+Epoch 50 | train_loss: 3.768512211393902, valid_loss: 5.477473719487272
+
+GCN N=2, dim=64, batch_size=32, loss=rmse, lr=0.01, decay=5e-4, seed=0, split=(0.6,
+0.2,
+0.2), time=13m39.7s
+Epoch 1 | train_loss: 7.9811302879134525, valid_loss: 2.3825516091582246
+Epoch 2 | train_loss: 6.950470245360551, valid_loss: 2.4858369831642486
+Epoch 3 | train_loss: 6.364649351865369, valid_loss: 3.7816777083576456
+Epoch 4 | train_loss: 5.956030276410446, valid_loss: 2.9490213917345174
+Epoch 5 | train_loss: 5.572126171699654, valid_loss: 2.787765484421644
+Epoch 6 | train_loss: 5.124252018932414, valid_loss: 4.0962074146877
+Epoch 7 | train_loss: 4.924733279872543, valid_loss: 3.075306435377499
+Epoch 8 | train_loss: 4.738159703256255, valid_loss: 3.1114325140099655
+Epoch 9 | train_loss: 4.6668262445742075, valid_loss: 3.4134462755583317
+Epoch 10 | train_loss: 4.6011889628889895, valid_loss: 3.1129230928304437
+Epoch 11 | train_loss: 4.51139286774975, valid_loss: 3.6568033225961885
+Epoch 12 | train_loss: 4.500941818092738, valid_loss: 3.531605702449174
+Epoch 13 | train_loss: 4.4750321294198505, valid_loss: 3.389333437153646
+Epoch 14 | train_loss: 4.4490471100943205, valid_loss: 4.074408574471556
+Epoch 15 | train_loss: 4.449681510163597, valid_loss: 3.1821149173750563
+Epoch 16 | train_loss: 4.424727356326998, valid_loss: 3.4634083124711053
+Epoch 17 | train_loss: 4.4268551206044675, valid_loss: 3.2601132869428993
+Epoch 18 | train_loss: 4.412042124930104, valid_loss: 3.493684071637599
+Epoch 19 | train_loss: 4.390911943269339, valid_loss: 4.282895712514378
+Epoch 20 | train_loss: 4.380713470504841, valid_loss: 3.5593410453469945
+Epoch 21 | train_loss: 4.362528050441322, valid_loss: 4.070455639752899
+Epoch 22 | train_loss: 4.362064027650238, valid_loss: 3.5864971596337765
+Epoch 23 | train_loss: 4.38539356959964, valid_loss: 3.5548207561660803
+Epoch 24 | train_loss: 4.337711871010361, valid_loss: 3.209515301405946
+Epoch 25 | train_loss: 4.332921979042603, valid_loss: 3.658335203646448
+Epoch 26 | train_loss: 4.30829121343664, valid_loss: 3.207304148044446
+Epoch 27 | train_loss: 4.29618729666762, valid_loss: 3.314972908252026
+Epoch 28 | train_loss: 4.314247380501873, valid_loss: 3.9682408387620174
+Epoch 29 | train_loss: 4.292639828544374, valid_loss: 3.1277776522274996
+Epoch 30 | train_loss: 4.308775400522771, valid_loss: 3.0953702345162557
+Epoch 31 | train_loss: 4.2813499375582715, valid_loss: 3.3275574986392535
+Epoch 32 | train_loss: 4.301476963914888, valid_loss: 3.7375232607927766
+Epoch 33 | train_loss: 4.292754892906525, valid_loss: 4.077016491470244
+Epoch 34 | train_loss: 4.316347551034929, valid_loss: 3.364475708136057
+Epoch 35 | train_loss: 4.290387745494267, valid_loss: 3.819811616083812
+Epoch 36 | train_loss: 4.298245330797334, valid_loss: 4.805501461903448
+Epoch 37 | train_loss: 4.287910153298428, valid_loss: 3.7352935553762907
+Epoch 38 | train_loss: 4.251989430495171, valid_loss: 3.1910516172283145
+Epoch 39 | train_loss: 4.284659456410054, valid_loss: 3.437222570399492
+Epoch 40 | train_loss: 4.2673670576176415, valid_loss: 3.332237187691015
+Epoch 41 | train_loss: 4.234610643052627, valid_loss: 3.4319955629358083
+Epoch 42 | train_loss: 4.242592335718865, valid_loss: 3.569960710763348
+Epoch 43 | train_loss: 4.250333483566962, valid_loss: 3.075763577062518
+Epoch 44 | train_loss: 4.253674814296915, valid_loss: 5.633270965520211
+Epoch 45 | train_loss: 4.250997566263561, valid_loss: 3.995235228013876
+Epoch 46 | train_loss: 4.268451813672166, valid_loss: 3.6873566323212716
+Epoch 47 | train_loss: 4.252037117805729, valid_loss: 4.144601437748207
+Epoch 48 | train_loss: 4.2698607027967865, valid_loss: 3.1174025602620503
+Epoch 49 | train_loss: 4.231150570251928, valid_loss: 3.406803595844866
+Epoch 50 | train_loss: 4.234303013862588, valid_loss: 3.1082703643148277
+
+N=5 16m44.2s
+Epoch 1 | train_loss: 10.25600228682707, valid_loss: 3.590306756257428
+Epoch 2 | train_loss: 8.320184898259878, valid_loss: 4.613319931519935
+Epoch 3 | train_loss: 7.289234750136769, valid_loss: 2.8820002542439767
+Epoch 4 | train_loss: 6.332641606323099, valid_loss: 3.3591150989742324
+Epoch 5 | train_loss: 5.660093116002444, valid_loss: 3.097269449665377
+Epoch 6 | train_loss: 5.305509730967061, valid_loss: 3.2060100251130197
+Epoch 7 | train_loss: 5.058760640673649, valid_loss: 3.7497190406095138
+Epoch 8 | train_loss: 4.883322293911897, valid_loss: 3.692441489702332
+Epoch 9 | train_loss: 4.790022389570095, valid_loss: 4.097221960648348
+Epoch 10 | train_loss: 4.6485292300666945, valid_loss: 3.4444717740079884
+Epoch 11 | train_loss: 4.594971790290404, valid_loss: 3.711006890299268
+Epoch 12 | train_loss: 4.559684370578355, valid_loss: 3.9429823072731933
+Epoch 13 | train_loss: 4.586165953284857, valid_loss: 3.8241416178006125
+Epoch 14 | train_loss: 4.56323061488757, valid_loss: 3.6345318223561516
+Epoch 15 | train_loss: 4.547252780747977, valid_loss: 3.420940504097414
+Epoch 16 | train_loss: 4.522899608108797, valid_loss: 3.6378620883363384
+Epoch 17 | train_loss: 4.522825771749942, valid_loss: 3.7208763340574604
+Epoch 18 | train_loss: 4.528149850065376, valid_loss: 3.797372804294297
+Epoch 19 | train_loss: 4.55558112372979, valid_loss: 3.584339059798234
+Epoch 20 | train_loss: 4.555535502422118, valid_loss: 3.505410406000748
+Epoch 21 | train_loss: 4.5470398414785915, valid_loss: 4.23517614238711
+Epoch 22 | train_loss: 4.525869056861771, valid_loss: 3.5895181664044817
+Epoch 23 | train_loss: 4.528623347663258, valid_loss: 3.7295714447725663
+Epoch 24 | train_loss: 4.528098062275869, valid_loss: 3.5559928711585718
+Epoch 25 | train_loss: 4.515667608237014, valid_loss: 3.5399867635775895
+Epoch 26 | train_loss: 4.52872421271255, valid_loss: 3.495572889346657
+Epoch 27 | train_loss: 4.512853013759915, valid_loss: 3.753535650761611
+Epoch 28 | train_loss: 4.531458750233576, valid_loss: 3.5454844077525336
+Epoch 29 | train_loss: 4.512339970107572, valid_loss: 3.5544756551826495
+Epoch 30 | train_loss: 4.512787867291924, valid_loss: 3.608469585771957
+Epoch 31 | train_loss: 4.538164224387575, valid_loss: 3.6101674380687165
+Epoch 32 | train_loss: 4.51934762028241, valid_loss: 4.5349708477850355
+Epoch 33 | train_loss: 4.50894114304677, valid_loss: 3.546444089313591
+Epoch 34 | train_loss: 4.502958531873247, valid_loss: 3.6568786739428645
+Epoch 35 | train_loss: 4.482307622271431, valid_loss: 3.801513456044978
+Epoch 36 | train_loss: 4.4672131391201155, valid_loss: 3.6746890772234257
+Epoch 37 | train_loss: 4.48735877363878, valid_loss: 3.7559056325763245
+Epoch 38 | train_loss: 4.459524752264015, valid_loss: 3.5229685650478073
+Epoch 39 | train_loss: 4.464848027058316, valid_loss: 3.672213152743202
+Epoch 40 | train_loss: 4.458534767691838, valid_loss: 3.4330091579910595
+Epoch 41 | train_loss: 4.439745008532556, valid_loss: 3.4303115836565534
+Epoch 42 | train_loss: 4.450734210966463, valid_loss: 3.390889607752448
+Epoch 43 | train_loss: 4.468852139821165, valid_loss: 3.485497461554474
+Epoch 44 | train_loss: 4.459910046500506, valid_loss: 3.4095449065812353
+Epoch 45 | train_loss: 4.459379635210822, valid_loss: 3.576293804389049
+Epoch 46 | train_loss: 4.459318153918421, valid_loss: 3.6778861333805075
+Epoch 47 | train_loss: 4.470648069253469, valid_loss: 3.3887026375546725
+Epoch 48 | train_loss: 4.47956321117056, valid_loss: 3.5303618619377866
+Epoch 49 | train_loss: 4.461002420218086, valid_loss: 3.519611992725242
+Epoch 50 | train_loss: 4.4697590972120045, valid_loss: 3.495018295816221
+
+GAT 2層 32
+Epoch 1 | train_loss: 9.07853698983072, valid_loss: 4.042524073701033
+Epoch 2 | train_loss: 7.496221716460311, valid_loss: 3.384956860309125
+Epoch 3 | train_loss: 6.785162524566868, valid_loss: 3.6569578318257787
+Epoch 4 | train_loss: 6.199327667845685, valid_loss: 2.9255349150788232
+Epoch 5 | train_loss: 5.628869287930763, valid_loss: 2.9149654911316403
+Epoch 6 | train_loss: 5.373914212887134, valid_loss: 5.328505331846205
+Epoch 7 | train_loss: 5.165792439463863, valid_loss: 3.3188325344496077
+Epoch 8 | train_loss: 5.0134591041975325, valid_loss: 3.411937604760774
+Epoch 9 | train_loss: 4.875557406704505, valid_loss: 4.461915556259435
+Epoch 10 | train_loss: 4.820036825360374, valid_loss: 4.589953398937701
+Epoch 11 | train_loss: 4.756704683311606, valid_loss: 3.4218967516148293
+Epoch 12 | train_loss: 4.703498927771608, valid_loss: 4.271243323032314
+Epoch 13 | train_loss: 4.671608169484935, valid_loss: 3.450758718628172
+Epoch 14 | train_loss: 4.646545784300483, valid_loss: 3.5533131197787147
+Epoch 15 | train_loss: 4.63191296350888, valid_loss: 3.4313511618192156
+Epoch 16 | train_loss: 4.60575788552526, valid_loss: 3.9907847730338135
+Epoch 17 | train_loss: 4.612069715594702, valid_loss: 3.462290141868125
+Epoch 18 | train_loss: 4.5872136916974355, valid_loss: 3.5301728255882825
+Epoch 19 | train_loss: 4.581941531650789, valid_loss: 3.6129203293026224
+Epoch 20 | train_loss: 4.610491934693141, valid_loss: 4.100384382863499
+Epoch 21 | train_loss: 4.563407390605364, valid_loss: 3.4758560405383774
+Epoch 22 | train_loss: 4.569256958285288, valid_loss: 3.4895435031002484
+Epoch 23 | train_loss: 4.56277731510324, valid_loss: 3.7328748023888885
+Epoch 24 | train_loss: 4.558282413323331, valid_loss: 4.682062302941507
+Epoch 25 | train_loss: 4.538847537281655, valid_loss: 3.6481426705066617
+Epoch 26 | train_loss: 4.550709109531735, valid_loss: 3.8583214539478927
+Epoch 27 | train_loss: 4.5360967736955375, valid_loss: 4.3871155041645675
+Epoch 28 | train_loss: 4.530553863606223, valid_loss: 4.3023131322161206
+Epoch 29 | train_loss: 4.53538943978957, valid_loss: 3.6099464811730795
+Epoch 30 | train_loss: 4.5519257511855535, valid_loss: 3.5837736523238837
+Epoch 31 | train_loss: 4.533642897298886, valid_loss: 3.563075875740471
+Epoch 32 | train_loss: 4.541074418302659, valid_loss: 3.472070242635778
+Epoch 33 | train_loss: 4.545019523147266, valid_loss: 3.632178041054742
+Epoch 34 | train_loss: 4.49084998323554, valid_loss: 3.6629935849849637
+Epoch 35 | train_loss: 4.531311503540916, valid_loss: 3.549317051991274
+Epoch 36 | train_loss: 4.498870783738227, valid_loss: 3.4469000638842875
+Epoch 37 | train_loss: 4.48332390779388, valid_loss: 3.793453037301602
+Epoch 38 | train_loss: 4.493740877390102, valid_loss: 3.5010477866986562
+Epoch 39 | train_loss: 4.512375102940865, valid_loss: 4.419419980865236
+Epoch 40 | train_loss: 4.512149560908137, valid_loss: 3.663286603167471
+Epoch 41 | train_loss: 4.531558160434045, valid_loss: 3.7621360937074226
+Epoch 42 | train_loss: 4.4892619717091975, valid_loss: 3.6473528149658425
+Epoch 43 | train_loss: 4.483120396356808, valid_loss: 3.570338764954313
+Epoch 44 | train_loss: 4.490386485956312, valid_loss: 3.4555700057001744
+Epoch 45 | train_loss: 4.4939865759940485, valid_loss: 3.6793198678779135
+Epoch 46 | train_loss: 4.502113638122391, valid_loss: 3.5400329351716637
+Epoch 47 | train_loss: 4.499776923326136, valid_loss: 3.3822697489943656
+Epoch 48 | train_loss: 4.469559851757569, valid_loss: 3.9184560950635987
+Epoch 49 | train_loss: 4.474561364454473, valid_loss: 4.002675771421791
+Epoch 50 | train_loss: 4.453532411300174, valid_loss: 3.3802765584516643

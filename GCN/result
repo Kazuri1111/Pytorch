@@ -1,0 +1,296 @@
+# 分極率 GNN 3層
+Epochs: 0 | epoch avg. loss: 0.58 | validation avg. loss: 0.11
+Epochs: 1 | epoch avg. loss: 0.15 | validation avg. loss: 0.11
+Epochs: 2 | epoch avg. loss: 0.12 | validation avg. loss: 0.11
+Epochs: 3 | epoch avg. loss: 0.10 | validation avg. loss: 0.21
+Epochs: 4 | epoch avg. loss: 0.09 | validation avg. loss: 0.17
+Epochs: 5 | epoch avg. loss: 0.09 | validation avg. loss: 0.10
+Epochs: 6 | epoch avg. loss: 0.08 | validation avg. loss: 0.08
+Epochs: 7 | epoch avg. loss: 0.08 | validation avg. loss: 0.07
+Epochs: 8 | epoch avg. loss: 0.08 | validation avg. loss: 0.06
+Epochs: 9 | epoch avg. loss: 0.08 | validation avg. loss: 0.06
+Epochs: 10 | epoch avg. loss: 0.08 | validation avg. loss: 0.09
+Epochs: 11 | epoch avg. loss: 0.07 | validation avg. loss: 0.05
+Epochs: 12 | epoch avg. loss: 0.07 | validation avg. loss: 0.05
+Epochs: 13 | epoch avg. loss: 0.07 | validation avg. loss: 0.06
+Epochs: 14 | epoch avg. loss: 0.07 | validation avg. loss: 0.07
+Epochs: 15 | epoch avg. loss: 0.07 | validation avg. loss: 0.05
+Epochs: 16 | epoch avg. loss: 0.07 | validation avg. loss: 0.10
+Epochs: 17 | epoch avg. loss: 0.07 | validation avg. loss: 0.05
+Epochs: 18 | epoch avg. loss: 0.07 | validation avg. loss: 0.06
+Epochs: 19 | epoch avg. loss: 0.07 | validation avg. loss: 0.06
+Epochs: 20 | epoch avg. loss: 0.07 | validation avg. loss: 0.09
+Epochs: 21 | epoch avg. loss: 0.07 | validation avg. loss: 0.05
+Epochs: 22 | epoch avg. loss: 0.07 | validation avg. loss: 0.08
+Epochs: 23 | epoch avg. loss: 0.07 | validation avg. loss: 0.06
+Epochs: 24 | epoch avg. loss: 0.07 | validation avg. loss: 0.08
+Epochs: 25 | epoch avg. loss: 0.07 | validation avg. loss: 0.05
+Epochs: 26 | epoch avg. loss: 0.07 | validation avg. loss: 0.05
+Epochs: 27 | epoch avg. loss: 0.07 | validation avg. loss: 0.07
+Epochs: 28 | epoch avg. loss: 0.07 | validation avg. loss: 0.08
+Epochs: 29 | epoch avg. loss: 0.07 | validation avg. loss: 0.07
+Epochs: 30 | epoch avg. loss: 0.07 | validation avg. loss: 0.05
+Epochs: 31 | epoch avg. loss: 0.07 | validation avg. loss: 0.05
+Epochs: 32 | epoch avg. loss: 0.07 | validation avg. loss: 0.09
+Epochs: 33 | epoch avg. loss: 0.07 | validation avg. loss: 0.09
+Epochs: 34 | epoch avg. loss: 0.06 | validation avg. loss: 0.05
+Epochs: 35 | epoch avg. loss: 0.07 | validation avg. loss: 0.06
+Epochs: 36 | epoch avg. loss: 0.06 | validation avg. loss: 0.05
+Epochs: 37 | epoch avg. loss: 0.06 | validation avg. loss: 0.06
+Epochs: 38 | epoch avg. loss: 0.07 | validation avg. loss: 0.09
+Epochs: 39 | epoch avg. loss: 0.07 | validation avg. loss: 0.08
+Epochs: 40 | epoch avg. loss: 0.07 | validation avg. loss: 0.05
+Epochs: 41 | epoch avg. loss: 0.06 | validation avg. loss: 0.05
+Epochs: 42 | epoch avg. loss: 0.06 | validation avg. loss: 0.05
+Epochs: 43 | epoch avg. loss: 0.06 | validation avg. loss: 0.05
+Epochs: 44 | epoch avg. loss: 0.06 | validation avg. loss: 0.05
+Epochs: 45 | epoch avg. loss: 0.06 | validation avg. loss: 0.06
+Epochs: 46 | epoch avg. loss: 0.06 | validation avg. loss: 0.15
+Epochs: 47 | epoch avg. loss: 0.06 | validation avg. loss: 0.05
+Epochs: 48 | epoch avg. loss: 0.06 | validation avg. loss: 0.15
+Epochs: 49 | epoch avg. loss: 0.06 | validation avg. loss: 0.05
+
+# 分極率 GCN 2層 11m12.7s (Ver. 1)
+Epoch 1 | train_loss:5.431312840015983, valid_loss:6.993902537233963
+Epoch 2 | train_loss:4.91299865116117, valid_loss:9.865259318596577
+Epoch 3 | train_loss:4.807757933837374, valid_loss:4.530099845019996
+Epoch 4 | train_loss:4.595523414907168, valid_loss:5.01427355299369
+Epoch 5 | train_loss:4.492052443671635, valid_loss:5.146646167363397
+Epoch 6 | train_loss:4.039038597031541, valid_loss:4.212459249572241
+Epoch 7 | train_loss:3.753692616411798, valid_loss:4.194898635221868
+Epoch 8 | train_loss:3.4615866728886027, valid_loss:3.421625233585502
+Epoch 9 | train_loss:3.368881611388781, valid_loss:14.054978563033572
+Epoch 10 | train_loss:3.389094754191269, valid_loss:8.270107093825025
+Epoch 11 | train_loss:3.3126176697943595, valid_loss:5.534696036562652
+Epoch 12 | train_loss:3.7046979401494395, valid_loss:4.112145149620354
+Epoch 13 | train_loss:3.4313156169512062, valid_loss:3.2543033690062013
+Epoch 14 | train_loss:3.289252517372977, valid_loss:7.062461202476893
+Epoch 15 | train_loss:3.28132255983819, valid_loss:3.4978598573388564
+Epoch 16 | train_loss:3.1700033707257296, valid_loss:4.0837218789861955
+Epoch 17 | train_loss:3.127349220550245, valid_loss:4.6414273618777395
+Epoch 18 | train_loss:3.056599183231228, valid_loss:6.8131862094757905
+Epoch 19 | train_loss:3.0562012981814686, valid_loss:3.432003325675694
+Epoch 20 | train_loss:3.0243309598079082, valid_loss:2.9539402799093346
+Epoch 21 | train_loss:2.936276096489338, valid_loss:3.469430172720282
+Epoch 22 | train_loss:2.98048862088669, valid_loss:3.017120058422858
+Epoch 23 | train_loss:2.8837552450008284, valid_loss:4.903671003787034
+Epoch 24 | train_loss:2.903430315543698, valid_loss:3.5344785320729675
+Epoch 25 | train_loss:2.8842343042172742, valid_loss:3.7987381606055357
+Epoch 26 | train_loss:2.8794552964608457, valid_loss:2.8807433299301306
+Epoch 27 | train_loss:2.8765730374988348, valid_loss:3.7838050962077374
+Epoch 28 | train_loss:2.791453157024065, valid_loss:2.8468402063788294
+Epoch 29 | train_loss:2.723708257164135, valid_loss:3.2235441261806814
+Epoch 30 | train_loss:2.8068678999636947, valid_loss:2.8715538781837613
+Epoch 31 | train_loss:2.729670141393223, valid_loss:2.817783312940364
+Epoch 32 | train_loss:2.7374202954205633, valid_loss:4.115844402453136
+Epoch 33 | train_loss:2.7607213787509837, valid_loss:2.817926776073964
+Epoch 34 | train_loss:2.782510397948185, valid_loss:2.928010350334615
+Epoch 35 | train_loss:2.7306999000428456, valid_loss:3.4521354806306603
+Epoch 36 | train_loss:2.6579182632054947, valid_loss:2.7972836411378204
+Epoch 37 | train_loss:2.672641372500927, valid_loss:2.7920403196351162
+Epoch 38 | train_loss:2.703173352652871, valid_loss:2.838439445113786
+Epoch 39 | train_loss:2.670512176461111, valid_loss:3.1017331734554694
+Epoch 40 | train_loss:2.7015190357683925, valid_loss:3.0353146052593707
+Epoch 41 | train_loss:2.667902374253005, valid_loss:2.761540454728096
+Epoch 42 | train_loss:2.6366863485847727, valid_loss:3.6518531048939105
+Epoch 43 | train_loss:2.6481482959196834, valid_loss:4.168668848378151
+Epoch 44 | train_loss:2.6582421448625193, valid_loss:2.9398886702754385
+Epoch 45 | train_loss:2.654995167350128, valid_loss:2.7034361997851533
+Epoch 46 | train_loss:2.63648900039913, valid_loss:4.284984771954693
+Epoch 47 | train_loss:2.622575976616402, valid_loss:3.747360835011256
+Epoch 48 | train_loss:2.5848353630221754, valid_loss:3.9905030978046594
+Epoch 49 | train_loss:2.6271482957944503, valid_loss:3.574608335576605
+Epoch 50 | train_loss:2.5917164425638117, valid_loss:3.009098458843884
+
+# 分極率 GCN 2層 11m12.7s (Ver. 1withDropout)
+Epoch 1 | train_loss:6.78773911144302, valid_loss:10.033449922622271
+Epoch 2 | train_loss:5.743843593438077, valid_loss:7.41006774715806
+Epoch 3 | train_loss:5.36605597222444, valid_loss:4.871010621777374
+Epoch 4 | train_loss:5.142964875421198, valid_loss:5.506830411901684
+Epoch 5 | train_loss:5.035435559660707, valid_loss:5.621266041524835
+Epoch 6 | train_loss:4.955284388937791, valid_loss:5.480926209673614
+Epoch 7 | train_loss:4.898201291407622, valid_loss:5.795988472283324
+Epoch 8 | train_loss:4.847383076909508, valid_loss:4.989559670532246
+Epoch 9 | train_loss:4.7928771954196785, valid_loss:5.778372927516481
+Epoch 10 | train_loss:4.776744889649513, valid_loss:4.5482753518158185
+Epoch 11 | train_loss:4.763496535185788, valid_loss:4.45374674756253
+Epoch 12 | train_loss:4.767651157643412, valid_loss:4.614172894389239
+Epoch 13 | train_loss:4.750613800130827, valid_loss:4.704340982845185
+Epoch 14 | train_loss:4.7387911777916045, valid_loss:4.633637732864884
+Epoch 15 | train_loss:4.744971670265011, valid_loss:4.352402516857045
+Epoch 16 | train_loss:4.712153005376519, valid_loss:4.642214455348064
+Epoch 17 | train_loss:4.740424159540815, valid_loss:5.077168546853847
+Epoch 18 | train_loss:4.742969168087479, valid_loss:4.789413505778045
+Epoch 19 | train_loss:4.733952759506261, valid_loss:4.460402872568237
+Epoch 20 | train_loss:4.734200971633706, valid_loss:4.8971093283888765
+Epoch 21 | train_loss:4.722505931943631, valid_loss:4.810279104412331
+Epoch 22 | train_loss:4.729370104168718, valid_loss:5.3465689712165325
+Epoch 23 | train_loss:4.7296229549414175, valid_loss:4.868085017705605
+Epoch 24 | train_loss:4.729524431718299, valid_loss:4.647910015215792
+Epoch 25 | train_loss:4.730014046421844, valid_loss:5.0599672680670595
+Epoch 26 | train_loss:4.737144382678112, valid_loss:4.855337441113292
+Epoch 27 | train_loss:4.73253415645189, valid_loss:4.859074638058912
+Epoch 28 | train_loss:4.741149949901164, valid_loss:4.609506336575907
+Epoch 29 | train_loss:4.730107729767237, valid_loss:5.274310002700041
+Epoch 30 | train_loss:4.738951615230184, valid_loss:5.059478927941077
+Epoch 31 | train_loss:4.726030675492446, valid_loss:4.5532937347160285
+Epoch 32 | train_loss:4.7326924723148736, valid_loss:4.9890604080372745
+Epoch 33 | train_loss:4.7236733078082205, valid_loss:5.14437640471097
+Epoch 34 | train_loss:4.731718557096635, valid_loss:4.738234612935913
+Epoch 35 | train_loss:4.733973422668383, valid_loss:4.871446008787179
+Epoch 36 | train_loss:4.733278864413233, valid_loss:4.832543026555721
+Epoch 37 | train_loss:4.72810227752412, valid_loss:4.794400869488425
+Epoch 38 | train_loss:4.732288589395929, valid_loss:4.980038239786852
+Epoch 39 | train_loss:4.730208058520459, valid_loss:4.6975391878766946
+Epoch 40 | train_loss:4.723925745671808, valid_loss:4.691604799629715
+Epoch 41 | train_loss:4.716917626237908, valid_loss:4.516662589495223
+Epoch 42 | train_loss:4.726565805993239, valid_loss:4.901488579864315
+Epoch 43 | train_loss:4.724214527018204, valid_loss:4.686675337824087
+Epoch 44 | train_loss:4.713103742548967, valid_loss:5.021587545247999
+Epoch 45 | train_loss:4.731967969623735, valid_loss:4.576718167745688
+Epoch 46 | train_loss:4.722534447410482, valid_loss:4.743667085771165
+Epoch 47 | train_loss:4.726520882356235, valid_loss:4.739343842842176
+Epoch 48 | train_loss:4.721945797804418, valid_loss:5.1550786270780495
+Epoch 49 | train_loss:4.733222690265938, valid_loss:4.871409534242159
+Epoch 50 | train_loss:4.72659194250853, valid_loss:4.643788829409406
+
+# 分極率 GCN 2層 11m12.7s (Ver. 2withDropout)
+Epoch 1 | train_loss:6.1288229425262415, valid_loss:2.519055241040321
+Epoch 2 | train_loss:5.022318970020359, valid_loss:2.5613902625069933
+Epoch 3 | train_loss:4.844973299011722, valid_loss:2.4789372144818014
+Epoch 4 | train_loss:4.709410236439475, valid_loss:2.997303114835091
+Epoch 5 | train_loss:4.584540249471656, valid_loss:2.7311483133392986
+Epoch 6 | train_loss:4.521116837021191, valid_loss:3.1828130160100887
+Epoch 7 | train_loss:4.407771378828436, valid_loss:3.854982682720082
+Epoch 8 | train_loss:4.350075619242108, valid_loss:3.2578625157293306
+Epoch 9 | train_loss:4.3586092728760155, valid_loss:3.261424606032943
+Epoch 10 | train_loss:4.318338106391677, valid_loss:4.251160521379019
+Epoch 11 | train_loss:4.30078135774499, valid_loss:2.8381374922824665
+Epoch 12 | train_loss:4.300434554021535, valid_loss:3.6050302845341653
+Epoch 13 | train_loss:4.291427515246758, valid_loss:3.883544715809064
+Epoch 14 | train_loss:4.263821077618836, valid_loss:4.2815427648992
+Epoch 15 | train_loss:4.264964331138785, valid_loss:4.773267531453252
+Epoch 16 | train_loss:4.264954974423993, valid_loss:3.621332590037861
+Epoch 17 | train_loss:4.260562640433401, valid_loss:2.957528526159254
+Epoch 18 | train_loss:4.260177351443284, valid_loss:3.230230289741367
+Epoch 19 | train_loss:4.276199655651366, valid_loss:3.086043246655126
+Epoch 20 | train_loss:4.271672905487264, valid_loss:3.3426739749815177
+Epoch 21 | train_loss:4.289023492427599, valid_loss:2.9462053388138565
+Epoch 22 | train_loss:4.252276064519874, valid_loss:3.0194540433312396
+Epoch 23 | train_loss:4.285156389709012, valid_loss:3.255919046390319
+Epoch 24 | train_loss:4.258695303859415, valid_loss:2.9303658195113202
+Epoch 25 | train_loss:4.274403608418521, valid_loss:4.194268731732823
+Epoch 26 | train_loss:4.23489884924092, valid_loss:2.9119028976610646
+Epoch 27 | train_loss:4.240954403602309, valid_loss:3.185942804317894
+Epoch 28 | train_loss:4.254486018793313, valid_loss:3.2413938622602916
+Epoch 29 | train_loss:4.243597704507319, valid_loss:2.9178388589460282
+Epoch 30 | train_loss:4.2064811452773885, valid_loss:3.776271282314963
+Epoch 31 | train_loss:4.25268690413154, valid_loss:3.256818608433227
+Epoch 32 | train_loss:4.177982475156209, valid_loss:2.985291018316973
+Epoch 33 | train_loss:4.1508192006125135, valid_loss:3.18809058919804
+Epoch 34 | train_loss:4.160463889828521, valid_loss:2.9054707218790403
+Epoch 35 | train_loss:4.144808566074791, valid_loss:4.237075224190877
+Epoch 36 | train_loss:4.157822326785098, valid_loss:4.064571429289932
+Epoch 37 | train_loss:4.156958314055044, valid_loss:2.9333820755440914
+Epoch 38 | train_loss:4.16572124387738, valid_loss:3.452180897985519
+Epoch 39 | train_loss:4.119698602684942, valid_loss:2.943047922951668
+Epoch 40 | train_loss:4.156063532965302, valid_loss:3.4339200578866786
+Epoch 41 | train_loss:4.102026069562612, valid_loss:3.0376127260238444
+Epoch 42 | train_loss:4.145903408770262, valid_loss:4.595040132772077
+Epoch 43 | train_loss:4.150568108492589, valid_loss:3.0081429592263147
+Epoch 44 | train_loss:4.119819361792412, valid_loss:3.3919961662339113
+Epoch 45 | train_loss:4.116412146847328, valid_loss:3.351763151968604
+Epoch 46 | train_loss:4.120397138712167, valid_loss:4.0628724625757675
+Epoch 47 | train_loss:4.089196225007375, valid_loss:2.9045904551275203
+Epoch 48 | train_loss:4.114874868734931, valid_loss:3.3490100537943666
+Epoch 49 | train_loss:4.123883040338002, valid_loss:2.9188313826663568
+Epoch 50 | train_loss:4.132976042029327, valid_loss:3.7948966498479866
+
+#New
+# GCN2層 
+Epoch 1 | train_loss:12.408329292421937, valid_loss:1.6249937667120882
+Epoch 2 | train_loss:9.574141729163427, valid_loss:1.5777742113319215
+Epoch 3 | train_loss:8.235345622169264, valid_loss:2.0346973026784814
+Epoch 4 | train_loss:7.008537117952492, valid_loss:2.088208672267092
+Epoch 5 | train_loss:6.069080591738272, valid_loss:1.965942033879712
+Epoch 6 | train_loss:5.559978687192989, valid_loss:1.8665859879570008
+Epoch 7 | train_loss:5.251250081831413, valid_loss:2.055374473816106
+Epoch 8 | train_loss:5.005824663319299, valid_loss:2.161288425955123
+Epoch 9 | train_loss:4.910143910355614, valid_loss:1.9389250683987396
+Epoch 10 | train_loss:4.790209792387759, valid_loss:2.002621002595306
+Epoch 11 | train_loss:4.736552669729421, valid_loss:1.9866769672347038
+Epoch 12 | train_loss:4.742710829934493, valid_loss:2.007419561268314
+Epoch 13 | train_loss:4.727604077164434, valid_loss:1.9787743078668893
+Epoch 14 | train_loss:4.736655508644977, valid_loss:2.040966001281711
+Epoch 15 | train_loss:4.709940100134995, valid_loss:1.9826277882133825
+Epoch 16 | train_loss:4.6636369875344075, valid_loss:1.967750960339481
+Epoch 17 | train_loss:4.661597891997439, valid_loss:1.9622349471733211
+Epoch 18 | train_loss:4.6612389714305, valid_loss:1.9714267758521542
+Epoch 19 | train_loss:4.654899862509703, valid_loss:1.9636083829621058
+Epoch 20 | train_loss:4.654405311820489, valid_loss:2.010205644685722
+
+# GNN
+Epoch 1 | train_loss:28.978231101717828, valid_loss:11.824880166903966
+Epoch 2 | train_loss:17.19168528457629, valid_loss:21.594268750631457
+Epoch 3 | train_loss:16.063673957421678, valid_loss:16.16215841473087
+Epoch 4 | train_loss:15.50506128768113, valid_loss:16.96670219754042
+Epoch 5 | train_loss:15.07640733827484, valid_loss:8.376077963389497
+Epoch 6 | train_loss:14.225051149541729, valid_loss:9.805909292742129
+Epoch 7 | train_loss:14.047295156337558, valid_loss:15.710090197768482
+Epoch 8 | train_loss:13.3633567672237, valid_loss:6.692637173759295
+Epoch 9 | train_loss:13.272442833306219, valid_loss:12.563199687357478
+Epoch 10 | train_loss:13.07406040330429, valid_loss:7.495678845389724
+Epoch 11 | train_loss:12.971746736709447, valid_loss:6.418655191744831
+Epoch 12 | train_loss:12.879078973086745, valid_loss:9.15686518467376
+Epoch 13 | train_loss:12.590527137222269, valid_loss:7.297188884523138
+Epoch 14 | train_loss:12.626673468705349, valid_loss:6.462479163890017
+Epoch 15 | train_loss:12.813660579231641, valid_loss:10.18465459962262
+Epoch 16 | train_loss:12.48176683288197, valid_loss:6.378903093014879
+Epoch 17 | train_loss:12.359857056313896, valid_loss:6.979895085154468
+Epoch 18 | train_loss:12.328969145585777, valid_loss:9.343443827234191
+Epoch 19 | train_loss:12.426045675505465, valid_loss:6.725323059292829
+Epoch 20 | train_loss:12.248977189543329, valid_loss:6.239470017545182
+
+# GCN
+Epoch 1 | train_loss:87.79395928739928, valid_loss:14.474974775912157
+Epoch 2 | train_loss:74.34188650080952, valid_loss:17.088627337092078
+Epoch 3 | train_loss:63.38457089998755, valid_loss:20.26819058095523
+Epoch 4 | train_loss:54.56418090484637, valid_loss:16.509888753243178
+Epoch 5 | train_loss:48.36149843116666, valid_loss:17.047565442427192
+Epoch 6 | train_loss:44.72726161718284, valid_loss:19.5350273227137
+Epoch 7 | train_loss:43.52733201631704, valid_loss:21.74508861318091
+Epoch 8 | train_loss:42.08036363434177, valid_loss:17.818799805468434
+Epoch 9 | train_loss:41.448453263736084, valid_loss:26.77210112629412
+Epoch 10 | train_loss:41.08673143563374, valid_loss:26.156202506601854
+Epoch 11 | train_loss:40.41842817545598, valid_loss:18.795539566687708
+Epoch 12 | train_loss:40.20676202303184, valid_loss:17.60869470440316
+Epoch 13 | train_loss:40.13697987713319, valid_loss:18.14065645698737
+Epoch 14 | train_loss:39.967547231322435, valid_loss:17.76208853315299
+Epoch 15 | train_loss:39.71423669115722, valid_loss:17.532906641116156
+Epoch 16 | train_loss:39.86737410403993, valid_loss:20.192992769874408
+Epoch 17 | train_loss:39.52284956771412, valid_loss:21.428572334589404
+Epoch 18 | train_loss:39.65246491305281, valid_loss:17.6316751398401
+Epoch 19 | train_loss:39.636779234453776, valid_loss:18.9217334747105
+Epoch 20 | train_loss:39.559220646087844, valid_loss:18.656504052332554
+
+# GCN 3
+Epoch 1 | train_loss:65.4039874082681, valid_loss:18.62198985430231
+Epoch 2 | train_loss:57.933457065797214, valid_loss:12.317043181037585
+Epoch 3 | train_loss:53.82730070268863, valid_loss:13.697528622156096
+Epoch 4 | train_loss:50.657058423137435, valid_loss:13.777025634297116
+Epoch 5 | train_loss:47.89562332669134, valid_loss:14.104269056742627
+Epoch 6 | train_loss:45.96767395948817, valid_loss:13.994373593543704
+Epoch 7 | train_loss:43.97539488080315, valid_loss:14.786800212294732
+Epoch 8 | train_loss:43.123820455739576, valid_loss:23.397368051810307
+Epoch 9 | train_loss:41.71788068769881, valid_loss:17.344646799014814
+Epoch 10 | train_loss:41.21392678059878, valid_loss:15.739677071111618
+Epoch 11 | train_loss:40.61787937327033, valid_loss:16.48979098962544
+Epoch 12 | train_loss:40.34612042065677, valid_loss:18.066754609918384
+Epoch 13 | train_loss:40.06238893775574, valid_loss:16.677697632402555
+Epoch 14 | train_loss:39.868636586507, valid_loss:18.20998824153071
+Epoch 15 | train_loss:39.56295078622065, valid_loss:18.229286571728032
+Epoch 16 | train_loss:39.577177330066505, valid_loss:16.243622823928103
+Epoch 17 | train_loss:39.491938130245764, valid_loss:17.12423228568986
+Epoch 18 | train_loss:39.213323062119926, valid_loss:17.194797159388497
+Epoch 19 | train_loss:39.11652278294955, valid_loss:21.42493421529265
+Epoch 20 | train_loss:39.073480196018195, valid_loss:16.638138267507674
