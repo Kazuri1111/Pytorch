@@ -1,0 +1,289 @@
+[I 20:43:40.151 NotebookApp] ノートブックサーバは cookie secret を /home/higuchi/.local/share/jupyter/runtime/notebook_cookie_secret に書き込みます
+[W 20:43:40.431 NotebookApp] サーバ拡張 jupyter_lsp の読み込みエラー
+    Traceback (most recent call last):
+      File "/home/higuchi/anaconda3/lib/python3.11/site-packages/notebook/notebookapp.py", line 2047, in init_server_extensions
+        mod = importlib.import_module(modulename)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/higuchi/anaconda3/lib/python3.11/importlib/__init__.py", line 126, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'jupyter_lsp'
+[W 20:43:40.765 NotebookApp] Loading JupyterLab as a classic notebook (v6) extension.
+[I 2023-10-27 20:43:40.768 LabApp] JupyterLab extension loaded from /home/higuchi/anaconda3/lib/python3.11/site-packages/jupyterlab
+[I 2023-10-27 20:43:40.768 LabApp] JupyterLab application directory is /home/higuchi/anaconda3/share/jupyter/lab
+[I 20:43:41.699 NotebookApp] ローカルディレクトリからノートブックをサーブ: /home/higuchi/Pytorch/GCN/OwnModel
+[I 20:43:41.699 NotebookApp] Jupyter Notebook 6.5.4 is running at:
+[I 20:43:41.699 NotebookApp] http://localhost:8888/?token=23bc3ea59e5aba49fb8ddffa5ed75eb636997e38d5b2b15a
+[I 20:43:41.699 NotebookApp]  or http://127.0.0.1:8888/?token=23bc3ea59e5aba49fb8ddffa5ed75eb636997e38d5b2b15a
+[I 20:43:41.699 NotebookApp] サーバを停止し全てのカーネルをシャットダウンするには Control-C を使って下さい(確認をスキップするには2回)。
+[C 20:43:41.700 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/higuchi/.local/share/jupyter/runtime/nbserver-5810-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=23bc3ea59e5aba49fb8ddffa5ed75eb636997e38d5b2b15a
+     or http://127.0.0.1:8888/?token=23bc3ea59e5aba49fb8ddffa5ed75eb636997e38d5b2b15a
+[W 20:43:51.332 NotebookApp] サーバ拡張 jupyter_lsp の読み込みエラー
+    Traceback (most recent call last):
+      File "/home/higuchi/anaconda3/lib/python3.11/site-packages/notebook/notebookapp.py", line 2047, in init_server_extensions
+        mod = importlib.import_module(modulename)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/higuchi/anaconda3/lib/python3.11/importlib/__init__.py", line 126, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'jupyter_lsp'
+[W 20:43:51.424 NotebookApp] Loading JupyterLab as a classic notebook (v6) extension.
+[I 2023-10-27 20:43:51.426 LabApp] JupyterLab extension loaded from /home/higuchi/anaconda3/lib/python3.11/site-packages/jupyterlab
+[I 2023-10-27 20:43:51.426 LabApp] JupyterLab application directory is /home/higuchi/anaconda3/share/jupyter/lab
+[I 20:43:51.898 NotebookApp] ポート 8888 は既に使用されています。他のポートで試して下さい。
+[I 20:43:51.899 NotebookApp] ローカルディレクトリからノートブックをサーブ: /home/higuchi/Pytorch/GCN/OwnModel
+[I 20:43:51.899 NotebookApp] Jupyter Notebook 6.5.4 is running at:
+[I 20:43:51.899 NotebookApp] http://localhost:8889/?token=c9941dcd08d397350d8e7b8ee76cf2691278cf6989e60cca
+[I 20:43:51.899 NotebookApp]  or http://127.0.0.1:8889/?token=c9941dcd08d397350d8e7b8ee76cf2691278cf6989e60cca
+[I 20:43:51.899 NotebookApp] サーバを停止し全てのカーネルをシャットダウンするには Control-C を使って下さい(確認をスキップするには2回)。
+[C 20:43:51.900 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/higuchi/.local/share/jupyter/runtime/nbserver-5864-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=c9941dcd08d397350d8e7b8ee76cf2691278cf6989e60cca
+     or http://127.0.0.1:8889/?token=c9941dcd08d397350d8e7b8ee76cf2691278cf6989e60cca
+[W 20:44:02.851 NotebookApp] サーバ拡張 jupyter_lsp の読み込みエラー
+    Traceback (most recent call last):
+      File "/home/higuchi/anaconda3/lib/python3.11/site-packages/notebook/notebookapp.py", line 2047, in init_server_extensions
+        mod = importlib.import_module(modulename)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/higuchi/anaconda3/lib/python3.11/importlib/__init__.py", line 126, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'jupyter_lsp'
+[W 20:44:02.942 NotebookApp] Loading JupyterLab as a classic notebook (v6) extension.
+[I 2023-10-27 20:44:02.944 LabApp] JupyterLab extension loaded from /home/higuchi/anaconda3/lib/python3.11/site-packages/jupyterlab
+[I 2023-10-27 20:44:02.944 LabApp] JupyterLab application directory is /home/higuchi/anaconda3/share/jupyter/lab
+[I 20:44:03.417 NotebookApp] ポート 8888 は既に使用されています。他のポートで試して下さい。
+[I 20:44:03.417 NotebookApp] ポート 8889 は既に使用されています。他のポートで試して下さい。
+[I 20:44:03.418 NotebookApp] ローカルディレクトリからノートブックをサーブ: /home/higuchi/Pytorch/GCN/OwnModel
+[I 20:44:03.418 NotebookApp] Jupyter Notebook 6.5.4 is running at:
+[I 20:44:03.418 NotebookApp] http://localhost:8890/?token=e82d8a5b113d6ee1bb82584776a8f4c4334e25b4c49086bd
+[I 20:44:03.418 NotebookApp]  or http://127.0.0.1:8890/?token=e82d8a5b113d6ee1bb82584776a8f4c4334e25b4c49086bd
+[I 20:44:03.418 NotebookApp] サーバを停止し全てのカーネルをシャットダウンするには Control-C を使って下さい(確認をスキップするには2回)。
+[C 20:44:03.419 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/higuchi/.local/share/jupyter/runtime/nbserver-5934-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8890/?token=e82d8a5b113d6ee1bb82584776a8f4c4334e25b4c49086bd
+     or http://127.0.0.1:8890/?token=e82d8a5b113d6ee1bb82584776a8f4c4334e25b4c49086bd
+[I 2023-10-27 20:45:39.250 ServerApp] Package notebook took 0.0000s to import
+[I 2023-10-27 20:45:39.258 ServerApp] Package jupyter_lsp took 0.0077s to import
+[W 2023-10-27 20:45:39.258 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-27 20:45:39.261 ServerApp] Package jupyter_server_terminals took 0.0033s to import
+[I 2023-10-27 20:45:39.261 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-10-27 20:45:39.298 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-10-27 20:45:39.298 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-27 20:45:39.299 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-10-27 20:45:39.302 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-10-27 20:45:39.304 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-10-27 20:45:39.306 ServerApp] notebook | extension was successfully linked.
+[I 2023-10-27 20:45:39.306 ServerApp] Writing Jupyter server cookie secret to /home/higuchi/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2023-10-27 20:45:39.456 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-10-27 20:45:39.466 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-10-27 20:45:39.467 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-10-27 20:45:39.467 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-10-27 20:45:39.469 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.9/site-packages/jupyterlab
+[I 2023-10-27 20:45:39.469 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 2023-10-27 20:45:39.469 LabApp] Extension Manager is 'pypi'.
+[I 2023-10-27 20:45:39.470 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-10-27 20:45:39.471 ServerApp] notebook | extension was successfully loaded.
+[I 2023-10-27 20:45:39.471 ServerApp] The port 8888 is already in use, trying another port.
+[I 2023-10-27 20:45:39.471 ServerApp] The port 8889 is already in use, trying another port.
+[I 2023-10-27 20:45:39.471 ServerApp] The port 8890 is already in use, trying another port.
+[I 2023-10-27 20:45:39.471 ServerApp] Serving notebooks from local directory: /home/higuchi/Pytorch/GCN/OwnModel
+[I 2023-10-27 20:45:39.471 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-10-27 20:45:39.471 ServerApp] http://localhost:8891/tree?token=1921c5808a6aa829e6709de8dec7bc4f566d35cfa919f2c8
+[I 2023-10-27 20:45:39.471 ServerApp]     http://127.0.0.1:8891/tree?token=1921c5808a6aa829e6709de8dec7bc4f566d35cfa919f2c8
+[I 2023-10-27 20:45:39.471 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-10-27 20:45:39.474 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/higuchi/.local/share/jupyter/runtime/jpserver-6267-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8891/tree?token=1921c5808a6aa829e6709de8dec7bc4f566d35cfa919f2c8
+        http://127.0.0.1:8891/tree?token=1921c5808a6aa829e6709de8dec7bc4f566d35cfa919f2c8
+[I 2023-10-27 20:45:39.493 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2023-10-27 20:46:56.754 ServerApp] Package notebook took 0.0000s to import
+[I 2023-10-27 20:46:56.758 ServerApp] Package jupyter_lsp took 0.0037s to import
+[W 2023-10-27 20:46:56.758 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-27 20:46:56.759 ServerApp] Package jupyter_server_terminals took 0.0016s to import
+[I 2023-10-27 20:46:56.760 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-10-27 20:46:56.773 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-10-27 20:46:56.773 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-27 20:46:56.773 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-10-27 20:46:56.774 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-10-27 20:46:56.776 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-10-27 20:46:56.778 ServerApp] notebook | extension was successfully linked.
+[I 2023-10-27 20:46:56.863 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-10-27 20:46:56.871 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-10-27 20:46:56.872 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-10-27 20:46:56.872 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-10-27 20:46:56.873 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.9/site-packages/jupyterlab
+[I 2023-10-27 20:46:56.873 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 2023-10-27 20:46:56.873 LabApp] Extension Manager is 'pypi'.
+[I 2023-10-27 20:46:56.874 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-10-27 20:46:56.875 ServerApp] notebook | extension was successfully loaded.
+[I 2023-10-27 20:46:56.876 ServerApp] The port 8888 is already in use, trying another port.
+[I 2023-10-27 20:46:56.876 ServerApp] The port 8889 is already in use, trying another port.
+[I 2023-10-27 20:46:56.876 ServerApp] The port 8890 is already in use, trying another port.
+[I 2023-10-27 20:46:56.876 ServerApp] The port 8891 is already in use, trying another port.
+[I 2023-10-27 20:46:56.876 ServerApp] Serving notebooks from local directory: /home/higuchi/Pytorch/GCN/OwnModel
+[I 2023-10-27 20:46:56.876 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-10-27 20:46:56.876 ServerApp] http://localhost:8892/tree?token=71f0b29dedf517d214b6327d47d4a979794528ecc7a92b03
+[I 2023-10-27 20:46:56.876 ServerApp]     http://127.0.0.1:8892/tree?token=71f0b29dedf517d214b6327d47d4a979794528ecc7a92b03
+[I 2023-10-27 20:46:56.876 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-10-27 20:46:56.879 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/higuchi/.local/share/jupyter/runtime/jpserver-6824-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8892/tree?token=71f0b29dedf517d214b6327d47d4a979794528ecc7a92b03
+        http://127.0.0.1:8892/tree?token=71f0b29dedf517d214b6327d47d4a979794528ecc7a92b03
+[I 2023-10-27 20:46:56.896 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 20:49:32.790 NotebookApp] 中断...
+[I 20:49:32.790 NotebookApp] Shutting down 0 kernels
+[I 20:49:32.791 NotebookApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                       
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 20:49:38.118 NotebookApp] 中断...
+[I 20:49:38.118 NotebookApp] Shutting down 0 kernels
+[I 20:49:38.119 NotebookApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                       
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 20:49:41.137 NotebookApp] 中断...
+[I 20:49:41.137 NotebookApp] Shutting down 0 kernels
+[I 20:49:41.138 NotebookApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                       
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 2023-10-27 20:49:44.002 ServerApp] Interrupted...
+[I 2023-10-27 20:49:46.024 ServerApp] Interrupted...
+[I 2023-10-27 20:50:12.719 ServerApp] Package notebook took 0.0000s to import
+[I 2023-10-27 20:50:12.722 ServerApp] Package jupyter_lsp took 0.0036s to import
+[W 2023-10-27 20:50:12.722 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-27 20:50:12.724 ServerApp] Package jupyter_server_terminals took 0.0016s to import
+[I 2023-10-27 20:50:12.724 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-10-27 20:50:12.737 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-10-27 20:50:12.737 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-27 20:50:12.738 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-10-27 20:50:12.739 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-10-27 20:50:12.741 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-10-27 20:50:12.743 ServerApp] notebook | extension was successfully linked.
+[I 2023-10-27 20:50:12.827 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-10-27 20:50:12.835 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-10-27 20:50:12.836 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-10-27 20:50:12.837 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-10-27 20:50:12.837 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.9/site-packages/jupyterlab
+[I 2023-10-27 20:50:12.837 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 2023-10-27 20:50:12.838 LabApp] Extension Manager is 'pypi'.
+[I 2023-10-27 20:50:12.839 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-10-27 20:50:12.840 ServerApp] notebook | extension was successfully loaded.
+[I 2023-10-27 20:50:12.840 ServerApp] Serving notebooks from local directory: /home/higuchi/Pytorch/GCN/OwnModel
+[I 2023-10-27 20:50:12.840 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-10-27 20:50:12.840 ServerApp] http://localhost:8888/tree?token=bccf52bcece5b5de34f3c9da93e34ced73ad64ccffcbd7ef
+[I 2023-10-27 20:50:12.840 ServerApp]     http://127.0.0.1:8888/tree?token=bccf52bcece5b5de34f3c9da93e34ced73ad64ccffcbd7ef
+[I 2023-10-27 20:50:12.840 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-10-27 20:50:12.843 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/higuchi/.local/share/jupyter/runtime/jpserver-7352-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/tree?token=bccf52bcece5b5de34f3c9da93e34ced73ad64ccffcbd7ef
+        http://127.0.0.1:8888/tree?token=bccf52bcece5b5de34f3c9da93e34ced73ad64ccffcbd7ef
+[I 2023-10-27 20:50:12.853 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2023-10-27 20:52:42.495 ServerApp] 404 GET /hub/api (@127.0.0.1) 23.41ms referer=None
+[I 2023-10-27 20:52:42.499 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.44ms
+[W 2023-10-27 20:52:46.954 ServerApp] 404 GET /hub/api (@127.0.0.1) 2.01ms referer=None
+[I 2023-10-27 20:52:46.958 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.99ms
+[W 2023-10-27 20:55:18.715 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.59ms referer=None
+[I 2023-10-27 20:55:18.716 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.22ms
+[I 2023-10-27 20:55:25.465 ServerApp] Kernel started: 840452b1-d320-4f71-bfc9-08bcd62b7e23
+[I 2023-10-27 20:55:25.812 ServerApp] Connecting to kernel 840452b1-d320-4f71-bfc9-08bcd62b7e23.
+[W 2023-10-27 20:55:28.183 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@127.0.0.1) 0.60ms referer=None
+[I 2023-10-27 20:55:48.964 ServerApp] Kernel interrupted: 840452b1-d320-4f71-bfc9-08bcd62b7e23
+[I 2023-10-27 20:56:01.957 ServerApp] Starting buffering for 840452b1-d320-4f71-bfc9-08bcd62b7e23:4be3bd41-89d6-4380-b11e-d5b88d39e9ff
+[W 2023-10-29 14:57:47.180 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.60ms referer=None
+[I 2023-10-29 14:57:47.203 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.28ms
+[I 2023-10-29 14:57:48.103 ServerApp] Connecting to kernel 840452b1-d320-4f71-bfc9-08bcd62b7e23.
+[W 2023-10-29 14:57:48.840 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@127.0.0.1) 0.58ms referer=None
+[I 2023-10-29 14:58:53.856 ServerApp] Starting buffering for 840452b1-d320-4f71-bfc9-08bcd62b7e23:25183ee2-1611-4c11-bf13-014c922fb494
+[W 2023-10-31 12:13:37.514 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.87ms referer=None
+[I 2023-10-31 12:13:37.538 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.44ms
+[W 2023-10-31 15:27:59.274 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.57ms referer=None
+[I 2023-10-31 15:27:59.286 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.27ms
+[W 2023-11-01 14:25:19.075 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.53ms referer=None
+[I 2023-11-01 14:25:19.076 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.20ms
+[W 2023-11-01 21:04:29.280 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.96ms referer=None
+[I 2023-11-01 21:04:29.571 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.48ms
+[W 2023-11-02 12:50:39.066 ServerApp] 404 GET /hub/api (@127.0.0.1) 1.07ms referer=None
+[I 2023-11-02 12:50:39.069 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.30ms
+[W 2023-11-02 13:09:04.716 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.79ms referer=None
+[I 2023-11-02 13:09:04.920 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.30ms
+[W 2023-11-04 22:48:09.456 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.57ms referer=None
+[I 2023-11-04 22:48:09.458 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.21ms
+[W 2023-11-06 15:02:02.943 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.88ms referer=None
+[I 2023-11-06 15:02:02.945 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.27ms
+[W 2023-11-06 21:24:38.050 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.56ms referer=None
+[I 2023-11-06 21:24:38.052 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.22ms
+[W 2023-11-07 00:02:28.741 ServerApp] Clearing invalid/expired login cookie username-localhost-8008
+[I 2023-11-07 00:02:28.742 LabApp] 302 GET /lab? (@::1) 1.69ms
+[W 2023-11-07 00:02:46.154 ServerApp] 401 POST /login?next=%2Flab%3F (@::1) 2.28ms referer=http://localhost:8008/login?next=%2Flab%3F
+[W 2023-11-07 00:03:03.363 ServerApp] 401 POST /login?next=%2Flab%3F (@::1) 2.16ms referer=http://localhost:8008/login?next=%2Flab%3F
+[W 2023-11-07 00:04:09.231 ServerApp] 401 POST /login?next=%2Flab%3F (@::1) 2.08ms referer=http://localhost:8008/login?next=%2Flab%3F
+[W 2023-11-07 00:04:13.469 ServerApp] 401 POST /login?next=%2Flab%3F (@::1) 2.07ms referer=http://localhost:8008/login?next=%2Flab%3F
+[W 2023-11-07 00:04:14.629 ServerApp] 401 POST /login?next=%2Flab%3F (@::1) 1.95ms referer=http://localhost:8008/login?next=%2Flab%3F
+[I 2023-11-07 00:04:34.494 LabApp] 302 GET /lab? (@::1) 0.99ms
+[W 2023-11-07 00:04:37.885 ServerApp] 401 POST /login?next=%2Flab%3F (@::1) 2.10ms referer=http://localhost:8008/login?next=%2Flab%3F
+[I 2023-11-07 00:13:33.049 LabApp] 302 GET /lab?token=[secret] (@::1) 1.06ms
+[W 2023-11-07 00:13:40.998 ServerApp] 401 POST /login?next=%2Flab%3Ftoken%3D28680f2a17ad467074fb30ce49197f45d6b284e11e2d0631 (@::1) 1.88ms referer=http://localhost:8008/login?next=%2Flab%3Ftoken%3D28680f2a17ad467074fb30ce49197f45d6b284e11e2d0631
+[W 2023-11-07 08:11:58.884 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.59ms referer=None
+[I 2023-11-07 08:11:59.046 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.31ms
