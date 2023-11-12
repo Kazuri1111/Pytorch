@@ -36,7 +36,8 @@ from typing import Callable, List, Optional
 import tqdm
 from math import sqrt as sqrt
 import backend
-from sklearn.metrics import r2_score
+from torchmetrics.regression import R2Score, MeanSquaredError
+from sklearn.preprocessing import StandardScaler #標準化(P.116-)
 
 class GCN(torch.nn.Module):
     def __init__(self, dataset):
@@ -255,14 +256,18 @@ class MyQM9(InMemoryDataset):
             "num_hs":num_hs
             }
             descriptors_in_use = [atomic_number, formal_charge, valence, degree, aromatic, sp, sp2, sp3, num_hs]
+
             if pre_reduce:
                 descriptors_in_use.remove(desc_dict[pre_reduce])
+            # 標準化
+            #descriptors_in_use = stdscaler.fit_transform(descriptors_in_use) 間違い
             x = torch.tensor(descriptors_in_use, dtype=torch.float).t().contiguous()
             #x = torch.cat([x1, x2], dim=-1)
             y = target[i].unsqueeze(0)
             smiles = rdkit.Chem.MolToSmiles(mol, isomericSmiles=True)
             data = Data(x=x, edge_index=edge_index, smiles=smiles, edge_attr=edge_attr, y=y, idx=i)
             data_list.append(data)
+            
 
         torch.save(self.collate(data_list), self.processed_paths[0])
 
@@ -327,9 +332,14 @@ class EarlyStopping:
         torch.save(model.state_dict(), self.path)
         self.val_loss_min = val_loss
 
-def train(dataset, model, epoch_num, train_loader, valid_loader, optimizer, target_idx, initial_epoch_num=None, early_stopping=None):
+def train_complicated(dataset, model, epoch_num, train_loader, valid_loader, optimizer, target_idx, initial_epoch_num=None, early_stopping=None):
     device = "cuda"
-    rmse = RMSELoss()
+    #rmse = RMSELoss()
+    mae = nn.L1Loss(reduction="sum")
+    
+    # torchmetrics
+    rmse = MeanSquaredError(squared=False).to("cuda")
+    calc_R2 = R2Score().to("cuda") # To avoid memory error
     #early_stopping = EarlyStopping(patience=1, verbose=True, path=f"{pre_reduce}_best.pt")
     results = []
     for epoch in range(epoch_num):
@@ -339,38 +349,113 @@ def train(dataset, model, epoch_num, train_loader, valid_loader, optimizer, targ
         model.train()
         train_loss = 0
         total_graphs = 0
-        R2 = 0
         for batch in train_loader:
             batch.to(device)
             optimizer.zero_grad()
             prediction = model(batch)
-            loss = rmse(prediction, batch.y[:, target_idx].unsqueeze(1))
-            label_np = batch.y[:, target_idx].detach().cpu().numpy()
-            prediction_np = prediction.detach().cpu().numpy()
-            R2 += r2_score(label_np, prediction_np)
+            label = batch.y[:, target_idx].unsqueeze(1)
+            loss = rmse(prediction, label)
+            #loss = mae(prediction, label)
             loss.backward()
             train_loss += loss.item()
             total_graphs += batch.num_graphs
             optimizer.step()
+
+            with torch.no_grad(): # Required to avoid out of memory error
+                try:
+                    train_label = torch.cat((train_label, label), dim=0)
+                except NameError:
+                    train_label = label
+                try:
+                    train_prediction = torch.cat((train_prediction, prediction), dim=0)
+                except NameError:
+                    train_prediction = prediction
         train_loss = train_loss / total_graphs #損失の平均(batchあたり) ルートを取ってから平均
-        train_R2 = R2 / len(train_loader)
+        train_R2 = calc_R2(train_label, train_prediction).item()
+        del train_label, train_prediction, label, prediction
+
         # validation
         model.eval()
         valid_loss = 0
         total_graphs = 0
-        R2 = 0
         for batch in valid_loader:
             batch.to(device)
             prediction = model(batch)
-            loss = rmse(prediction, batch.y[:, target_idx].unsqueeze(1))
-            label_np = batch.y[:, target_idx].detach().cpu().numpy()
-            prediction_np = prediction.detach().cpu().numpy()
-            R2 += r2_score(label_np, prediction_np)
+            label = batch.y[:, target_idx].unsqueeze(1)
+            loss = rmse(prediction, label)
+            #loss = mae(prediction, label)
             valid_loss += loss.item()
             total_graphs += batch.num_graphs
-        valid_loss = valid_loss / total_graphs
-        valid_R2 = R2 / len(valid_loader)
+            with torch.no_grad(): # Required to avoid out of memory error
+                try:
+                    valid_label = torch.cat((valid_label, label), dim=0)
+                except NameError:
+                    valid_label = label
+                try:
+                    valid_prediction = torch.cat((valid_prediction, prediction), dim=0)
+                except NameError:
+                    valid_prediction = prediction
+            
+        valid_loss = valid_loss / total_graphs #損失の平均(batchあたり) ルートを取ってから平均
+        valid_R2 = calc_R2(valid_label, valid_prediction).item()
+        del valid_label, valid_prediction, label, prediction
 
+        print(f"Epoch {epoch+1} | train_loss:{train_loss}, valid_loss:{valid_loss}, train_R2:{train_R2}, valid_R2:{valid_R2}")
+        results.append({"Epoch":epoch+1, "train_loss":train_loss, "valid_loss":valid_loss, "train_R2":train_R2, "valid_R2":valid_R2})
+    return results
+
+def train(dataset, model, epoch_num, train_loader, valid_loader, optimizer, target_idx):
+    device = "cuda"
+
+    mae = nn.L1Loss(reduction="mean")
+    rmse = MeanSquaredError(squared=False).to("cuda")
+    calc_R2 = R2Score().to("cuda") # To avoid memory error
+
+    results = []
+
+    stdsc = StandardScaler()
+    r2Score = R2Score().to("cuda")
+    for epoch in range(epoch_num):
+        # train
+        model.train()
+        train_loss = 0
+        train_R2 = 0
+        total_graphs = 0
+        for batch in train_loader:
+            batch.x = stdsc.fit_transform(batch.x)
+            batch.x = torch.from_numpy(batch.x.astype(np.float32)).clone()
+            batch.to(device)
+            optimizer.zero_grad()
+            prediction = model(batch)
+            label = batch.y[:, target_idx].unsqueeze(1)
+            loss = rmse(prediction, label)
+            R2 = r2Score(prediction, label)
+            train_R2 += R2.item()
+            loss.backward()
+            train_loss += loss.item()
+            total_graphs += batch.num_graphs
+            optimizer.step()
+        train_loss = train_loss / len(train_loader) #損失の平均(batchあたり)
+        train_R2 = train_R2 / len(train_loader)
+
+        # validation
+        model.eval()
+        valid_loss = 0
+        valid_R2 = 0
+        total_graphs = 0
+        for batch in valid_loader:
+            batch.x = stdsc.fit_transform(batch.x)
+            batch.x = torch.from_numpy(batch.x.astype(np.float32)).clone()
+            batch.to(device)
+            prediction = model(batch)
+            label = batch.y[:, target_idx].unsqueeze(1)
+            loss = rmse(prediction, label)
+            R2 = r2Score(prediction, label)
+            valid_loss += loss.item()
+            valid_R2 += R2.item()
+            total_graphs += batch.num_graphs
+        valid_loss = valid_loss / len(valid_loader) #損失の平均(batchあたり)
+        valid_R2 = valid_R2 / len(valid_loader)
         print(f"Epoch {epoch+1} | train_loss:{train_loss}, valid_loss:{valid_loss}, train_R2:{train_R2}, valid_R2:{valid_R2}")
         results.append({"Epoch":epoch+1, "train_loss":train_loss, "valid_loss":valid_loss, "train_R2":train_R2, "valid_R2":valid_R2})
     return results

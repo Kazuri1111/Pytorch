@@ -1,0 +1,3 @@
+RMSE (devided by len(train_loader))
+all desc are standalized using StandardScaler (scikil-learn)
+ 

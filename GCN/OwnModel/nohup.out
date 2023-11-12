@@ -287,3 +287,25 @@ Please note that updating to Notebook 7 might break some of your extensions.
 [W 2023-11-07 00:13:40.998 ServerApp] 401 POST /login?next=%2Flab%3Ftoken%3D28680f2a17ad467074fb30ce49197f45d6b284e11e2d0631 (@::1) 1.88ms referer=http://localhost:8008/login?next=%2Flab%3Ftoken%3D28680f2a17ad467074fb30ce49197f45d6b284e11e2d0631
 [W 2023-11-07 08:11:58.884 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.59ms referer=None
 [I 2023-11-07 08:11:59.046 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.31ms
+[W 2023-11-07 13:12:22.360 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.59ms referer=None
+[I 2023-11-07 13:12:22.363 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.24ms
+[W 2023-11-09 02:12:19.754 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.90ms referer=None
+[I 2023-11-09 02:12:19.929 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.28ms
+[W 2023-11-09 10:06:34.756 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.78ms referer=None
+[I 2023-11-09 10:06:34.760 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.34ms
+[W 2023-11-09 22:38:47.712 ServerApp] 404 GET /hub/api (@127.0.0.1) 1.86ms referer=None
+[I 2023-11-09 22:38:47.721 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.81ms
+[W 2023-11-10 09:47:18.776 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.57ms referer=None
+[I 2023-11-10 09:47:18.818 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.28ms
+[W 2023-11-10 12:58:42.023 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.73ms referer=None
+[I 2023-11-10 12:58:42.028 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.24ms
+[W 2023-11-10 13:48:36.111 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.90ms referer=None
+[I 2023-11-10 13:48:36.285 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.31ms
+[W 2023-11-11 10:58:22.881 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.63ms referer=None
+[I 2023-11-11 10:58:22.884 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.24ms
+[W 2023-11-11 19:39:27.716 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.55ms referer=None
+[I 2023-11-11 19:39:27.718 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.23ms
+[W 2023-11-12 15:06:59.775 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.60ms referer=None
+[I 2023-11-12 15:06:59.778 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.22ms
+[W 2023-11-12 23:29:36.587 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.89ms referer=None
+[I 2023-11-12 23:29:36.607 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.34ms
