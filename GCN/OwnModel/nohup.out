@@ -309,3 +309,9 @@ Please note that updating to Notebook 7 might break some of your extensions.
 [I 2023-11-12 15:06:59.778 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.22ms
 [W 2023-11-12 23:29:36.587 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.89ms referer=None
 [I 2023-11-12 23:29:36.607 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.34ms
+[W 2023-11-13 09:59:39.772 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.65ms referer=None
+[I 2023-11-13 09:59:39.871 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.32ms
+[W 2023-11-15 20:24:45.610 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.58ms referer=None
+[I 2023-11-15 20:24:45.627 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.46ms
+[W 2023-11-16 10:11:15.357 ServerApp] 404 GET /hub/api (@127.0.0.1) 0.65ms referer=None
+[I 2023-11-16 10:11:15.372 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.26ms

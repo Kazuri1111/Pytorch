@@ -94,7 +94,7 @@ class GCN3(torch.nn.Module):
         self.out = nn.Linear(64, 1)
     
     def forward(self, data):
-        batch, x, edge_index = data.batch, data.x, data.edge_index
+        batch, x, edge_index = (data.batch, data.x, data.edge_index)
         x = self.conv1(x, edge_index)
         x = F.relu(x)
         x = self.conv2(x, edge_index)
@@ -422,8 +422,8 @@ def train(dataset, model, epoch_num, train_loader, valid_loader, optimizer, targ
         train_R2 = 0
         total_graphs = 0
         for batch in train_loader:
-            batch.x = stdsc.fit_transform(batch.x)
-            batch.x = torch.from_numpy(batch.x.astype(np.float32)).clone()
+            #batch.x = stdsc.fit_transform(batch.x)
+            #batch.x = torch.from_numpy(batch.x.astype(np.float32)).clone()
             batch.to(device)
             optimizer.zero_grad()
             prediction = model(batch)
@@ -443,17 +443,18 @@ def train(dataset, model, epoch_num, train_loader, valid_loader, optimizer, targ
         valid_loss = 0
         valid_R2 = 0
         total_graphs = 0
-        for batch in valid_loader:
-            batch.x = stdsc.fit_transform(batch.x)
-            batch.x = torch.from_numpy(batch.x.astype(np.float32)).clone()
-            batch.to(device)
-            prediction = model(batch)
-            label = batch.y[:, target_idx].unsqueeze(1)
-            loss = rmse(prediction, label)
-            R2 = r2Score(prediction, label)
-            valid_loss += loss.item()
-            valid_R2 += R2.item()
-            total_graphs += batch.num_graphs
+        with torch.inference_mode():
+            for batch in valid_loader:
+                #batch.x = stdsc.fit_transform(batch.x)
+                #batch.x = torch.from_numpy(batch.x.astype(np.float32)).clone()
+                batch.to(device)
+                prediction = model(batch)
+                label = batch.y[:, target_idx].unsqueeze(1)
+                loss = rmse(prediction, label)
+                R2 = r2Score(prediction, label)
+                valid_loss += loss.item()
+                valid_R2 += R2.item()
+                total_graphs += batch.num_graphs
         valid_loss = valid_loss / len(valid_loader) #損失の平均(batchあたり)
         valid_R2 = valid_R2 / len(valid_loader)
         print(f"Epoch {epoch+1} | train_loss:{train_loss}, valid_loss:{valid_loss}, train_R2:{train_R2}, valid_R2:{valid_R2}")
